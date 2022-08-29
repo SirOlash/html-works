@@ -1,0 +1,31 @@
+@font-face{
+    font-family: Olash;
+    src: url(../Font/Blaka-Regular.ttf);
+}
+.lorem{
+    font-size: 45px;
+    font-family: Olash;
+    color: green;
+    background-color: black;
+}
+@font-face {
+    font-family: Olash2;
+    src: url(../Font/SplineSansMono-VariableFont_wght.ttf);
+}
+.lorem2{
+    font-family: Olash2;
+    font-size: 45px;
+    color: blue;
+    background-color: black;
+}
+@font-face{
+    font-family: Olash3;
+    src: url(../Font/Blaka-Regular.ttf);
+}
+.lorem3{
+    font-family: Olash3;
+    font-size: 45px;
+    color: red;
+    background-color: black;
+
+}

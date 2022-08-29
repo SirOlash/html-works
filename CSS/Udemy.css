@@ -1,0 +1,74 @@
+@font-face{
+    font-family:Olash2;
+    src: url(../Font/Segoe\ UI.ttf);
+}
+.grad{
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(to right, #6A5952, #DF5251, #F69534, #65B76F, #29A0D2, #C76DB6);
+}
+.header{
+    /* width: 100%; */
+    height: 70px;
+    /* background-color: aquamarine; */
+    /* padding-top: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-items: center; */
+  
+}
+.html,body{
+    margin: 0px;
+    padding: 0px;
+    font-family:Olash2;
+}
+.udemy{
+    font-size: 45px;
+    margin-left: 20px;
+    
+}
+.logo{
+    width: 90px;
+    /* margin-left: 20px;
+    margin-top: 10px; */
+}
+.search{
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #F7F8FA;
+    padding-left: 45px;
+}
+.box{
+    height: 35px;
+    width: 70px;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    /* font-size: 15px; */
+
+}
+.box2{
+    width: 70px;
+    height: 36px;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    /* font-size: 15px; */
+    background-color: black;
+}
+.box3{
+    width: 30px;
+    height: 36px;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    font-size: 15px;
+    margin-left: -10px;
+    
+}
+

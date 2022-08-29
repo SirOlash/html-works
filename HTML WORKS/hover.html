@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+        }
+        .circle::before{
+            content: url('rtyue');
+            background-color: blue;
+            height: 100px;
+            width: 200px;
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 300px;
+        }
+        .circle::after{
+            content: url('rtyue');
+            background-color: blue;
+            height: 100px;
+            width: 200px;
+            margin-left: 200px;
+            margin-top: 500px;
+            position: absolute;
+
+        }
+        /* .shape::before{
+            content: url('');
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            margin-top: 300px;
+            background-color: blue;
+
+        }
+        .shape::after{
+            content: url('');
+            position: absolute;
+            margin-top: 300px;
+            margin-left: 400px;
+            width: 0px;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid red;
+            
+        } */
+        .left{
+            height: 100vh;
+            width: 20%;
+            box-shadow: 0px 0px 2px black;
+            margin-top: -28px;
+        }
+        button{
+            margin-left: 30px;
+            margin-top: 30px;
+            background-color: transparent;
+            border: none;
+            display: block;
+        }
+        button .content{
+            width: 80%;
+            height: 100vh;
+            background-color: red;
+            position: absolute;
+            left: 20%;
+            top: 0px;
+            display: none;
+        }
+        button:focus .content{
+            display: inherit;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+    <!-- <div class="shape"></div> -->
+    <div class="left">
+        <button>
+            EMMANUEL
+            <div class="content">Emmanuel</div>
+        </button>
+        <button>
+            Daniel
+            <div class="content">Daniel</div>
+        </button>
+        <button>
+            EMMANUEL
+            <div class="content">Emmanuel</div>
+        </button>
+    </div>
+ 
+</body>
+</html>

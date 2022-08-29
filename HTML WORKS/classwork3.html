@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, html{
+            padding: 0px;
+            margin: 0px;
+        }
+        .header{
+            display: flex;
+        }
+        .box1{
+            width: 100px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            background-color: rgb(226, 225, 225);
+            border: none;
+            
+        }
+        .jumia{
+            width: 200px;
+            /* height: 100px; */
+            /* border: 1px solid black; */
+            position: absolute;
+            left: 0px;
+            top: 50px;
+            display: none;
+            border: none;
+            background-color: white;
+            box-shadow: 0px 0px 10px black;
+        }
+        .udemy{
+            width: 150px;
+            /* height: 100px; */
+            /* border: 1px solid black; */
+            position: absolute;
+            left: 80px;
+            top: 50px;
+            display: none;
+            border: none;
+            box-shadow: 0px 0px 10px black;
+        }
+        .box1:hover div{
+            display: inherit;
+        }
+        .fb{
+            width: 150px;
+            /* height: 100px; */
+            /* border: 1px solid black; */
+            position: absolute;
+            left: 190px;
+            top: 50px;
+            display: none;
+            border: none;
+            box-shadow: 0px 0px 10px black;
+        }
+        .youtube{
+            width: 150px;
+            position: absolute;
+            left: 280px;
+            top: 50px;
+            display: none;
+            border: none;
+            box-shadow: 0px 0px 10px black;
+        }
+        .email{
+            width: 150px;
+            position: absolute;
+            left: 370px;
+            top: 50px;
+            display: none;
+            border: none;
+            box-shadow: 0px 0px 10px black;
+        }
+        .pinterest{
+            width: 150px;
+            position: absolute;
+            left: 480px;
+            top: 50px;
+            display: none;
+            border: none;
+            box-shadow: 0px 0px 10px black;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="box1" style="background-color: brown;">JUMIA
+            <div class="jumia">Shop big and enjoy great discounts from direct producers/suppliers. 
+                Up to 60% off on deals. 
+                All you need on Jumia. 
+                Live Giveaways. Up to 70% Off. Wheel of Fortune. Flash Sales.
+            </div>
+        </div>
+        <div class="box1" style="background-color: white;">UDEMY
+            <div class="udemy">Welcome to the place where success begins. Log in for savings. Ends soon.</div>
+        </div>
+        <div class="box1" style="background-color: blue;">FACEBOOK
+            <div class="fb">Create an account or log into Facebook. Connect with friends, 
+                family and other people you know. Share photos and videos, send messages and get updates.</div>
+        </div>
+        <button class="box1" style="background-color: red;">YOUTUBE
+            <div class="youtube">Enjoy the videos and music you love, upload original content,
+                 and share it all with friends, family, and the world on YouTube.</div>
+        </button>
+        <button class="box1">EMAL
+            <div class="email">Sign in. Use your Google Account. Email or phone. Forgot email? Type the text you hear or see. 
+                Not your computer? Use Guest mode to sign in privately.</div>
+        </button>
+        <button class="box1" style="background-color: #B7081B;">PINTEREST
+            <div class="pinterest">Pinterest is an image sharing and social media service designed to enable saving 
+                and discovery of information on the internet using images, 
+                and on a smaller scale, animated GIFs and videos, in the form of pinboards</div>
+        </button>
+
+    </div>
+</body>
+</html>

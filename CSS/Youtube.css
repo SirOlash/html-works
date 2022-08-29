@@ -1,0 +1,183 @@
+.circle1{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color:#E5E5E5;
+    text-align: center;
+}
+.box1{
+    width: 30px;
+    height: 20px;
+    border-radius: 10%;
+    background-color: #FF0000;
+    margin-left: 20px;
+    text-align: center;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 60px;
+}
+a{
+    text-decoration: none;
+}
+.search{
+    width: 500px;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.box1{
+    width: 79px;
+    height: 40px;
+    margin-left: 0px;
+    background-color: #F0F0F0;
+    text-align: center;
+    margin-top: 4px;
+    border: 1px solid #CCCCCC;
+    /* border-left: none; */
+}
+.circle2{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color:#E5E5E5;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.sub{
+    margin-top: 20px;
+}
+.circle3{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #004C3F;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+.header2{
+    width: 90%;
+    height: 50px;
+    border: 1px solid #CCCCCC;
+    margin-left: 200px;
+    border-left: none;
+    /* justify-content: space-between; */
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.circle4{
+    width: 50px;
+    height: 40px;
+    border: solid #CCCCCC;
+    /* border-radius: 50%; */
+    background-color: black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-top: 4px;
+    text-align: center;
+}
+.all{
+    font-size: 20px;
+    margin-top: 8px;
+    color: white;
+}
+.circle5{
+    width: 100px;
+    height: 30px;
+    /* border-radius: 100%; */
+    background-color: #F0F0F0;
+    border: solid #CCCCCC;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+
+}
+.gaming{
+    font-size: 20px;
+    margin-top: 4px;
+    color: black;
+}
+.circle6{
+    width: 100px;
+    height: 30px;
+    /* border-radius: 100%; */
+    background-color: #F0F0F0;
+    border: solid #CCCCCC;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    text-align: center;
+    margin-top: 10px; 
+    margin-left: 60px;
+}
+.mixes{
+    font-size: 20px;
+    margin-top: 4px;
+    color: black;
+}
+.circle7{
+    width: 100px;
+    height: 30px;
+    background-color: #F0F0F0;
+    border: solid #CCCCCC;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;  
+}
+.football{
+    font-size: 20px;
+    margin-top: 4px;
+    color: black;
+}
+.circle8{
+    width: 100px;
+    height: 30px;
+    background-color: #F0F0F0;
+    border: solid #CCCCCC;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;  
+}
+.live{
+    font-size: 20px;
+    margin-top: 4px;
+    color: black;
+}
+.circle9{
+    width: 100px;
+    height: 30px;
+    background-color: #F0F0F0;
+    border: solid #CCCCCC;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;   
+}
+.music{
+    font-size: 20px;
+    margin-top: 4px;
+    color: black; 
+}

@@ -1,0 +1,22 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+@import 'adjustment';
+.bola{
+    width: 200px;
+    height: 500px;
+    background-color: grey;
+    &:hover{
+        background-color: blue;
+    }
+    .tunde{
+        @extend .bola;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        background-color: yellow;
+        .bimbo{
+            width: 50px;
+            height: 50px;
+            // background-color: green;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+    .circle{
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        background-color: #0B84EE;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-left: 10px;}

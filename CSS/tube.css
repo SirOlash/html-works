@@ -1,0 +1,79 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.you{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.search{
+    width: 500px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+}
+.box1{
+    width: 75px;
+    height: 38px;
+    border: 1px solid #CCCCCC;
+    background-color: #F0F0F0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.sear{
+    display: flex;
+}
+.circle1{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color:#E5E5E5;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.fa-video-camera{
+    font-size: 20px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.circle2{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #004C3F;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.one{
+    font-size: 20px;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+    background-color:  #F0F0F0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    color: black;
+    
+}
+.header2{
+    display: flex;
+    width: 90%;
+    height: 50px;
+    border: 1px solid #CCCCCC;
+    margin-left: 140px;
+    border-left: none;
+    align-items: center;
+    justify-content: space-between;    
+}
+.header2 :hover{
+    color: aqua;
+}

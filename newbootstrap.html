@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+</head>
+<body class="bg-dark">
+    <!-- <div class="container"> -->
+        <!-- <h2>Toggleable Tabs</h2> -->
+        <!-- <br> -->
+        <!-- Nav tabs -->
+
+        <div class="d-flex justify-content-between pl-5 pr-5 text-white mb-3 mt-3" >
+            <div><b>WhatsApp</b> </div>
+            <div class="d-flex">
+                <div class="fa fa-search"></div>
+                <div class="fa fa-ellipsis-vertical ml-5"></div>
+            </div>
+          
+        </div>
+
+        <ul class="nav nav-tabs justify-content-around bg-dark" style="position: sticky; top:0px; z-index:1" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link  text-success" data-toggle="tab" href="#camera"><i class="fa fa-camera"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-success" data-toggle="tab" href="#chat"><b>CHATS</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" data-toggle="tab" href="#status"><b>STATUS</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" data-toggle="tab" href="#calls"><b>CALLS</b></a>
+          </li>
+        </ul>
+      
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div id="camera" class="container tab-pane active"><br></div>
+          <div id="chat" class="container tab-pane fade"><br>
+                <div >
+                    <i class="fa fa-message text-white d-flex align-items-center justify-content-center position-fixed" 
+                    style="bottom: 4%;right: 4%; background-color: green; height:50px; width:50px; border-radius:100%;"></i>
+                </div>
+            <div class="d-flex mb-3 justify-content-between">
+              <div class="d-flex">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double text-success"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+              </div>
+              <div>
+                <div class="text-success">7:45 AM</div>
+                <!-- <div class="fa fa-circle-1 text-success"></div> -->
+                 <div class="rounded-circle bg-success text-dark align-items-center justify-content-center d-flex ml-4 mt-1" style="height:20px; width:20px;">3</div>
+              </div>
+            </div>
+            <div class="d-flex mb-3 justify-content-between">
+              <div class="d-flex">
+                <div > 
+                    <img src="./Image/Ayo 20160510_211610.jpg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Tope</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double text-white"></span>
+                        <span>gdgdgdhdjdj hdgdydhn </span>
+                    </div>
+                </div>
+              </div>
+              <div>
+                <div class="text-success">1:45 AM</div>
+                <!-- <div class="fa fa-circle-1 text-success"></div> -->
+                 <div class="rounded-circle bg-success text-dark align-items-center justify-content-center d-flex ml-4 mt-1" style="height:20px; width:20px;">2</div>
+              </div>
+            </div>
+            <div class="d-flex mb-3 justify-content-between">
+              <div class="d-flex">
+                <div > 
+                    <img src="./Image/IMG_20220524_093739_706.jpg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double text-white"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+              </div>
+              <div>
+                <div class="text-success">7:45 AM</div>
+                <!-- <div class="fa fa-circle-1 text-success"></div> -->
+                 <!-- <div class="rounded-circle bg-success text-dark align-items-center justify-content-center d-flex ml-4 mt-1" style="height:20px; width:20px;">3</div> -->
+              </div>
+            </div>
+            <div class="d-flex mb-3 justify-content-between">
+              <div class="d-flex">
+                <div > 
+                    <img src="./Image/Screenshot_20220621-212415.png" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double text-success"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+              </div>
+              <div>
+                <div class="text-success">2:25 PM</div>
+                <!-- <div class="fa fa-circle-1 text-success"></div> -->
+                 <div class="rounded-circle bg-success text-dark align-items-center justify-content-center d-flex ml-4 mt-1" style="height:20px; width:20px;">6</div>
+              </div>
+            </div>
+            <div class="d-flex mb-3 justify-content-between">
+              <div class="d-flex">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double text-success"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+              </div>
+              <div>
+                <div class="text-success">7:45 AM</div>
+                <!-- <div class="fa fa-circle-1 text-success"></div> -->
+                 <div class="rounded-circle bg-success text-dark align-items-center justify-content-center d-flex ml-4 mt-1" style="height:20px; width:20px;">3</div>
+              </div>
+            </div>
+            <div class="d-flex mb-3 justify-content-between">
+              <div class="d-flex">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double text-success"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+              </div>
+              <div>
+                <div class="text-success">7:45 AM</div>
+                <!-- <div class="fa fa-circle-1 text-success"></div> -->
+                 <div class="rounded-circle bg-success text-dark align-items-center justify-content-center d-flex ml-4 mt-1" style="height:20px; width:20px;">3</div>
+              </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">
+                        <span class="fa fa-check-double"></span>
+                        <span>gdgdgdhdjdj </span>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div id="status" class="container tab-pane fade"><br>
+            <div >
+                <i class="fa fa-pencil text-white d-flex align-items-center justify-content-center position-fixed" style="bottom: 20%;right: 8%; background-color: gray; height:50px; width:50px; border-radius:100%;"></i>
+            </div>
+            <div >
+                <i class="fa fa-camera text-white d-flex align-items-center justify-content-center position-fixed" style="bottom: 5%;right: 8%; background-color: green; height:50px; width:50px; border-radius:100%;"></i>
+            </div>
+            <div class="d-flex">
+                <div>
+                    <i class="fa fa-circle-plus position-absolute ml-4 mt-4  text-success"></i>
+                    <div class="fa fa-circle-user" style="font-size:45px"></div>
+                    <!-- <div class="rounded-circle bg-white" style="height:40px; width:40px;"></div> -->
+                    <!-- <img src="" class="rounded-circle" alt="" width="40px" height="40px"> -->
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>My Status</b></div>
+                    <div class="ml-3 text-white">Tap to add status update</div>
+                </div>
+            </div>
+            <div class="text-white mt-3 mb-3">Recent updates</div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/Screenshot_20220621-212407.png" class="rounded-circle" alt="" width="50px" height="50px" style="border: 3px dashed green;">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">3 minutes ago</div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/Screenshot_20220610-183419.png" class="rounded-circle" alt="" width="50px" height="50px" style="border: 3px dashed green;">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>femi</b></div>
+                    <div class="ml-3 text-white">9 minutes ago</div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/Screenshot_20220621-212351.png" class="rounded-circle" alt="" width="50px" height="50px" style="border: 3px dashed green;">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dad</b></div>
+                    <div class="ml-3 text-white">15 minutes ago</div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/Screenshot_20220621-212400.png" class="rounded-circle" alt="" width="50px" height="50px" style="border: 3px dashed green;">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>J-boy</b></div>
+                    <div class="ml-3 text-white">22 minutes ago</div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/Screenshot_20220621-212407.png" class="rounded-circle" alt="" width="50px" height="50px" style="border: 3px dashed green;">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Debby</b></div>
+                    <div class="ml-3 text-white">25 minutes ago</div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/Screenshot_20220621-212415.png" class="rounded-circle" alt="" width="50px" height="50px" style="border: 3px dashed green;">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Grace</b></div>
+                    <div class="ml-3 text-white">30 minutes ago</div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/Screenshot_20220621-212407.png" class="rounded-circle" alt="" width="50px" height="50px" style="border: 3px dashed green;">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Eben</b></div>
+                    <div class="ml-3 text-white">1 hour ago</div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/Screenshot_20220621-212407.png" class="rounded-circle" alt="" width="50px" height="50px" style="border: 3px dashed green;">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">3 minutes ago</div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/Screenshot_20220621-212407.png" class="rounded-circle" alt="" width="50px" height="50px" style="border: 3px dashed green;">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">3 minutes ago</div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/Screenshot_20220621-212407.png" class="rounded-circle" alt="" width="50px" height="50px" style="border: 3px dashed green;">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">3 minutes ago</div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <div > 
+                    <img src="./Image/Screenshot_20220621-212407.png" class="rounded-circle" alt="" width="50px" height="50px" style="border: 3px dashed green;">
+                </div>
+                <div>
+                    <div class="ml-3 text-white"><b>Dammy</b></div>
+                    <div class="ml-3 text-white">3 minutes ago</div>
+                </div>
+            </div>
+          </div>
+          <div id="calls" class="container tab-pane fade"><br>
+            <div >
+                <i class="fa fa-phone text-white d-flex align-items-center justify-content-center position-fixed" 
+                style="bottom: 4%;right: 4%; background-color: green; height:50px; width:50px; border-radius:100%;"></i>
+            </div>
+            <div class="d-flex mb-3 justify-content-between">
+                <div class="d-flex">
+                    <div > 
+                        <img src="./Image/images (4).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                    </div>
+                    <div>
+                        <div class="ml-3 text-white"><b>Dammy</b></div>
+                        <div class="ml-3 text-white">
+                            <span  class="fa fa-arrow-down text-success" ></span>
+                            <span>Yesterday, 9:59pm </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fa fa-phone text-success mt-"></div>
+            </div>
+            <div class="d-flex mb-3 justify-content-between">
+                <div class="d-flex">
+                    <div > 
+                        <img src="./Image/images (7).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                    </div>
+                    <div>
+                        <div class="ml-3 text-white"><b>Tope</b></div>
+                        <div class="ml-3 text-white">
+                            <span  class="fa fa-arrow-down text-success" ></span>
+                            <span>Yesterday, 8:02pm </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fa fa-phone text-success mt-3"></div>
+            </div>
+            <div class="d-flex mb-3 justify-content-between">
+                <div class="d-flex">
+                    <div > 
+                        <img src="./Image/images (5).jpeg" class="rounded-circle" alt="" width="50px" height="50px">
+                    </div>
+                    <div>
+                        <div class="ml-3 text-white"><b>Tope</b></div>
+                        <div class="ml-3 text-white">
+                            <span  class="fa fa-arrow-up text-success" ></span>
+                            <span>Yesterday, 6:22pm </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fa fa-video text-success mt-3"></div>
+            </div>
+            <div class="d-flex mb-3 justify-content-between">
+                <div class="d-flex">
+                    <div > 
+                        <img src="./Image/Screenshot_20220621-212438.png" class="rounded-circle" alt="" width="50px" height="50px">
+                    </div>
+                    <div>
+                        <div class="ml-3 text-white"><b>Kud</b></div>
+                        <div class="ml-3 text-white">
+                            <span  class="fa fa-arrow-down text-danger" ></span>
+                            <span>Yesterday, 3:50pm </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fa fa-phone text-success mt-3"></div>
+            </div>
+            <div class="d-flex mb-3 justify-content-between">
+                <div class="d-flex">
+                    <div > 
+                        <img src="./Image/Olaoluwa 20180424_233622.jpg" class="rounded-circle" alt="" width="50px" height="50px">
+                    </div>
+                    <div>
+                        <div class="ml-3 text-white"><b>Tope</b></div>
+                        <div class="ml-3 text-white">
+                            <span  class="fa fa-arrow-down text-success" ></span>
+                            <span>June 20, 7:24 PM </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fa fa-phone text-success mt-3"></div>
+            </div>
+            <div class="d-flex mb-3 justify-content-between">
+                <div class="d-flex">
+                    <div > 
+                        <img src="./Image/‪+234 818 050 6562‬ 20170204_010130.jpg" class="rounded-circle" alt="" width="50px" height="50px">
+                    </div>
+                    <div>
+                        <div class="ml-3 text-white"><b>Palmpay</b></div>
+                        <div class="ml-3 text-white">
+                            <span  class="fa fa-arrow-down text-success" ></span>
+                            <span>June 20, 5:00 PM </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fa fa-video text-success mt-3"></div>
+            </div>
+            <div class="d-flex mb-3 justify-content-between">
+                <div class="d-flex">
+                    <div > 
+                        <img src="./Image/Ayo 20160510_211610.jpg" class="rounded-circle" alt="" width="50px" height="50px">
+                    </div>
+                    <div>
+                        <div class="ml-3 text-white"><b>Check</b></div>
+                        <div class="ml-3 text-white">
+                            <span  class="fa fa-arrow-down text-danger" ></span>
+                            <span>June 19, 8:00 PM  </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fa fa-phone text-success mt-3"></div>
+            </div>
+            <div class="d-flex mb-3 justify-content-between">
+                <div class="d-flex">
+                    <div > 
+                        <img src="./Image/Screenshot_20220621-212400.png" class="rounded-circle" alt="" width="50px" height="50px">
+                    </div>
+                    <div>
+                        <div class="ml-3 text-white"><b>Tunde</b></div>
+                        <div class="ml-3 text-white">
+                            <span  class="fa fa-arrow-down text-danger" ></span>
+                            <span>June 19, 2:00 PM  </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fa fa-phone text-success mt-3"></div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+</body>
+</html>
